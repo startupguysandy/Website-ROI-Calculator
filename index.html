@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/calculate.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <!-- Result Here -->
+
+    <form id="roiForm">
+      <div class="">
+        <label for="uniques">Unique website visitors: </label>
+        <input type="number" id="uniques" name="website-uniques" value="100">
+      </div>
+      <div class="">
+        <label for="closerate">Your close rate: </label>
+        <input type="number" id="closerate" name="close-rate" value="50">
+      </div>
+      <div class="">
+        <label for="sessionsweekly">Number of sessions per week: </label>
+        <input type="number" id="sessionsweekly" name="sessions-weekly" value="2">
+      </div>
+      <div class="">
+        <label for="sessionvalue">How much you charge per session: </label>
+        <input type="number" id="sessionvalue" name="per-session-value" value="30">
+      </div>
+      <input type="submit" value="Calculate">
+    </form>
+
+    <div id="result"></div>
+    <div id="calculations"></div>
+
+  </body>
+</html>
